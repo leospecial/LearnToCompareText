@@ -2,17 +2,23 @@
 implement "StructuredSelfAttention" + "RelationNetwork" for few shot learning of text
 
 ## how
-    more data via manual annotation or data arguement
+    more data via manual annotation or data augmentation
     more features via transfer learning
     more train via meta learning
     less parameters and other robust
 
 ## performance
-    10000 step 300dim    
+    10seq 10000step 300dim minum100shot
     embeeding +cosine  0.54   
-    embedding+ attn + cosine 0.65
-    embedding+ attn + concat not converge
-    bert tokenize...
+    embedding+ attn BiLSTM + cosine 0.65
+    embedding+ attn BiLSTM + concat not converge
+    bert... tokenize in task_generator
+
+    data augmentation √
+    seqquence length √
+    pretrain √
+    less parameters √
+    c-way-k-shot √
 
 ## Reference：
 1. Few-Shot Text Classification with Induction Network https://arxiv.org/abs/1902.10482    
