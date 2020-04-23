@@ -10,7 +10,7 @@ implement "StructuredSelfAttention" + "RelationNetwork" for few shot learning of
 ## performance
     10seq 10000step 300dim minum100shot
     embeeding +cosine  0.54   
-    embedding+ attn BiLSTM + cosine 0.65
+    embedding+ attn BiLSTM + cosine 0.66
     embedding+ attn BiLSTM + concat not converge
     bert... tokenize in task_generator
 
